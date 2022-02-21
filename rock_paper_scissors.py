@@ -19,7 +19,6 @@ while retry == "y":
             guess = input("\nPlease select rock, paper, or scissors: ")
             guess = guess.lower()
 
-
             if (guess == "rock" or guess == "paper" or guess == "scissors"):
                
             
