@@ -101,7 +101,7 @@ if mode == "a":
                 
                 while loan_valid == True:
                       loan_amount = input("How much would you like to have (max 100) ")
-                   if loan_amount > 100:
+                    if loan_amount > 100:
                         print("That is too much.")
                         loan_valid = True
                             
