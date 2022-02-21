@@ -11,7 +11,6 @@ def time321():
     print("1...",  end= ' ', flush=True)
     time.sleep(0.5)
 
-    
 def askForRetry():
     valid_input = False
     retry = False
