@@ -1,9 +1,7 @@
 def test(guess, num):
    c = num + guess
    return(c)
-   
     
-
 c = 10
 d = 10
 while True:
