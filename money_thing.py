@@ -100,7 +100,7 @@ if mode == "a":
                 input("You have chosen to take a loan...")
                 
                 while loan_valid == True:
-                       loan_amount = input("How much would you like to have (max 100) ")
+                      loan_amount = input("How much would you like to have (max 100) ")
                     if loan_amount > 100:
                         print("That is too much.")
                         loan_valid = True
@@ -229,16 +229,4 @@ if mode == "a":
             
                         
             
-                        
-                        
-                    
-                    
-                    
-                
-                
-                    
-#make it so that you can see the stakes after a retry use a function
-            
-            
-            
-            
+  
