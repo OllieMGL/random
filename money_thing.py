@@ -58,14 +58,14 @@ b = [1, 2, 3, 4, 5, 6]
 c = list(range(1, 16))
 
 
-input("Welcome too lose your money ...")
+input("Welcome to lose your money ...")
 
 mode = input("What difficulty would you like to play on? \na) easy \nb) hard\n")
 
 if mode == "a":
     money = 1000
     time.sleep(0.25)
-    input("You have chosen easy mode, you start with 1000 currnecy...")
+    input("You have chosen easy mode, you start with 1000 currency...")
     time.sleep(0.5)
     print("Time to choose your stake")
     time.sleep(0.25)
@@ -100,7 +100,8 @@ if mode == "a":
                 input("You have chosen to take a loan...")
                 
                 while loan_valid == True:
-                      loan_amount = input("How much would you like to have (max 100) ")
+                    
+                    loan_amount = int(input("How much would you like to have (max 100) "))
                     if loan_amount > 100:
                         print("That is too much.")
                         loan_valid = True
@@ -114,6 +115,7 @@ if mode == "a":
                         print("This will be the only loan you recieve, use it wisely")
                         input("Please press enter to continue...")
                         loan_played = 0
+                        loan_valid = False
                         back_to_zero = True
         
         
@@ -163,7 +165,7 @@ if mode == "a":
             elif answer != 1:
                 money = int(money) - int(easyA)
                 time.sleep(0.75)
-                print(f"Oh no you have lost, your currnet balance is {money}")
+                print(f"Oh no you have lost, your current balance is {money}")
                 
                         
         if mode == "b":
@@ -190,7 +192,7 @@ if mode == "a":
 
             elif answer != 1:
                 money = int(money) - int(easyB)
-                print(f"Oh no you have lost, your currnet balance is {money}")
+                print(f"Oh no you have lost, your current balance is {money}")
                 
                         
                         
@@ -214,8 +216,10 @@ if mode == "a":
 
             elif answer != 1:
                 money = int(money) - int(easyC)
-                print(f"Oh no you have lost, your currnet balance is {money}")
+                print(f"Oh no you have lost, your current balance is {money}")
             
+            
+            print(f"Debugging line: loan played is {loan_played}")
             if loan_played != "holder":
                 loan_played = loan_played + 1
                 turns_left = 5 - loan_played
@@ -226,7 +230,7 @@ if mode == "a":
         retry = askForRetry()
         
         
-            
+            #add another mode - blackjack - but import it from another file
                         
             
   
