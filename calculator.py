@@ -17,6 +17,7 @@ def abilitieslist():
     print("- rand...Returns A Random Number Between 0 and 1")
     print("- x fah... Converts fahreneit to celsius ")
     print("- x cel...Converts celsius to fahreneit")
+    print("\n- note that you will have to leave a space inbetween each integer/word")
     input("////////////////////////////////////////////////////////////////////////////////////////")
 
 
