@@ -2,6 +2,7 @@ import time
 import random
 import sys
 
+
 def time321():
     time.sleep(0.25)
     print("3...", end= ' ', flush=True)
