@@ -1,6 +1,7 @@
 import time
 import random
 
+
 same_guess = "oh"
 retry = "y"
 
