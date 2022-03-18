@@ -12,7 +12,7 @@ def abilitieslist():
     print("- *...Multiplication")
     print("- /...Division")
     print("- /-...Square Roots ")
-    print("^...Powers")
+    print("- ^...Powers")
     print("- randint...Returns A Random Number Between The Two Inputs -> randint 1 10")
     print("- rand...Returns A Random Number Between 0 and 1")
     print("- x fah... Converts fahreneit to celsius ")
@@ -92,11 +92,7 @@ while retry == "y":
         answer = num1 ** num2
         print(">>> " + str(equation) + " = " + str(answer)+ "")
         
-        
-    
-        
-        
-        
+           
         
         
     else:
