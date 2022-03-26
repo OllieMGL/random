@@ -19,7 +19,7 @@ def abilitieslist():
     print("- x fah... Converts fahreneit to celsius ")
     print("- x cel...Converts celsius to fahreneit")
     print("\n- note that you will have to leave a space inbetween each integer/word")
-    input("////////////////////////////////////////////////////////////////////////////////////////")
+    input("///////////////////////////////////////////////////////////////////////////////////")
 
 
 retry = "y"
@@ -101,6 +101,9 @@ while retry == "y":
         
     retry = input("\nWould you like to submit another equation? (y/n): ") 
     if retry == "n":
+        print("Bye")
         sys.exit()
+        
+        
     
         

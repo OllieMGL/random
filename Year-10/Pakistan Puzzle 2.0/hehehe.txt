@@ -1,0 +1,6 @@
+# make dictonary with questions - pick one at random
+and dispaly it
+# make python open text file and write your score 
+and save it so you can see the top scores
+# add lots of questions like 20
+
