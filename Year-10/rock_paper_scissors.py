@@ -21,18 +21,15 @@ while retry == "y":
             guess = guess.lower()
 
             if (guess == "rock" or guess == "paper" or guess == "scissors"):
-               
-            
-               time.sleep(0.25)
-               print("3...", end= ' ', flush=True)
-               time.sleep(0.5)
-               print("2...", end= ' ', flush=True)
-               time.sleep(0.5) 
-               print("1...",  end= ' ', flush=True)
-               time.sleep(0.5)
+                time.sleep(0.25)
+                print("3...", end= ' ', flush=True)
+                time.sleep(0.5)
+                print("2...", end= ' ', flush=True)
+                time.sleep(0.5) 
+                print("1...",  end= ' ', flush=True)
+                time.sleep(0.5)
 
-               print(f"\n{computer_action}")
-           
+                print(f"\n{computer_action}")
             if computer_action == guess:
                 print("Oh no its a tie!")
                 
